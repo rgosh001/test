@@ -45,7 +45,7 @@ For myself, I've always wondered how people contributed to online projects. With
 
 
 
-####`README.md`
+####`README.md` & `LICENSE` Files
 [![Alt text for your video](http://img.youtube.com/vi/HZaB8uVMXAg/0.jpg)](https://www.youtube.com/watch?v=HZaB8uVMXAg)
 
 I recently learned what a `README.md` file was and boy-oh-boy, how do I even make one of these. A `README.md` allows you to explain your program and all its possibilities and defects. You can talk about the contributors, files included, what the program entitles the user to do, how to install it and much more! The easiest way I was told what a `README.md` file does is "it explains to someone else who has absolutely no idea what your program does or how to code, but it enables the user to understand the concepts and basic directions to execute your program."
@@ -138,10 +138,15 @@ Similar to using d to get rid of code, I learned a few ways to replace what was 
 ####PERROR
 [![Alt text for your video](http://img.youtube.com/vi/qx4yQ7-im_c/0.jpg)](https://www.youtube.com/watch?v=qx4yQ7-im_c)_
 
+`perror(const char*);`
+
+When programming for unix based operating systems (which is a primary component of CS100), system calls are a prominent component for code. When coding, error checking is always necessary. System calls make error checking very simple and very easy to implement with `perror` . Every unix system call returns an error value if the call fails. The `perror` function captures this error value (if returned) and prints to stdout an error message based on the system call and the type of error. It takes in one c-string argument, which is a message the user can pass in. 
+
+When using system calls, it is absolutely neccessary to implement `perror` with every system call. Any program is not complete without `perror` . Without it, bugs will be exponentially harder to find and fix and will significantly stifle programming speed. Also, if you're like me and essentially did not use any `perror` functions whatsoever, your grade will suffer. It's really simple to implement, essentially adding only a line or two per system call, but the benefits are enormous.
 
 
 ####Scripts
-[![Alt text for your video](http://img.youtube.com/vi/WKIbIO9ti38/0.jpg)](https://www.youtube.com/watch?v=WKIbIO9ti38)
+[![Alt text for your video](http://img.youtube.com/vi/a2JDWoYeGq8/0.jpg)](https://www.youtube.com/watch?v=a2JDWoYeGq8)
 
 
 
