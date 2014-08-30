@@ -1,0 +1,11 @@
+Script started on Fri Aug 29 14:32:58 2014
+[?1034hbash-3.2$ ls
+README.md main1.cpp main2.cpp tag.cpp   testrun
+bash-3.2$ pwd
+/Users/RashidGoshtasbi/desktop/test
+bash-3.2$ ls -a
+[34m.[39;49m[0m              [34m..[39;49m[0m             .DS_Store      [34m.git[39;49m[0m           .main1.cpp.swp README.md      main1.cpp      main2.cpp      tag.cpp        testrun
+bash-3.2$ exit
+exit
+
+Script done on Fri Aug 29 14:33:49 2014

@@ -5,22 +5,19 @@ Licensing Information
 ---
 Licensing information soon to come!
 
-Author List
----
+#Author List
 1. Rashid
 2. Rashid
 3. Rashid
 
-File List
----
+##File List
 ```
 * test
 * readme
 * Makefile
 ```
 
-Project details listed [here](http;//www.exampe.com/)
+###Project details listed [here](http;//www.exampe.com/)
 
-File directions
----
+####File directions
 1. `cd` into folder.
