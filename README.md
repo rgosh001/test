@@ -45,11 +45,11 @@ For myself, I've always wondered how people contributed to online projects. With
 
 
 
-####`README.md`
-[![Alt text for your video](http://img.youtube.com/vi/sg6KBi-TP7M/0.jpg)](https://www.youtube.com/watch?v=sg6KBi-TP7M)
+####`README.md` & `LICENSE` Files
+[![Alt text for your video](http://img.youtube.com/vi/HZaB8uVMXAg/0.jpg)](https://www.youtube.com/watch?v=HZaB8uVMXAg)
 
-I recently learned what a `README.md` file was and boy-oh-boy, how do I even make one of these. A `README.md` allows you to explain your program and all its possibilities and defects. You can talk about the contributors, files included, what the program entitles the user to do, how to install it and much more! The easiest way I was told what a `README.md` file does is "it explains to someone else who has absolutely no idea what your program does or how to code, but it enables the user to understand the concepts and basic directions to execute your program."
-Watch the video above and let us drive through both of these documents together to help you create a well of `README.md` and `LICENSE` file.
+I recently learned what a `README.md` and `LICENSE` file was and boy-oh-boy, how do I even make one of these. A `README.md` allows you to explain your program and all its possibilities and defects. You can talk about the contributors, files included, what the program entitles the user to do, how to install it and much more! The easiest way I was told what a `README.md` file does is "it explains to someone else who has absolutely no idea what your program does or how to code, but it enables the user to understand the concepts and basic directions to execute your program."
+With a `LICENSE` file, you are able to use the many different `LICENSE` versions provided all over the web. All it does is explain to users the legal portion behind your program such as warranty, free distribution, and copyright (if applicaple). Watch the video above and let us drive through both of these documents together to help you create a well of `README.md` and `LICENSE` file.
 
 
 
@@ -102,11 +102,25 @@ Learning The Terminal
 ####The `ls` command
 [![Alt text for your video](http://img.youtube.com/vi/RMxvcc_QUUI/0.jpg)](https://www.youtube.com/watch?v=RMxvcc_QUUI)_
 
+The `ls` command is one of the most used commands in bash. I would say that there isn't a time that I don't use `ls` when using the terminal. Proper knowledge of the `ls` command and the useful flags for `ls` helps to streamline the programming process. 
+
+Passing in a directory name will display the contents of that directory. It is also possible to pass in a path for a directory to display any directory, regardless of the directory the user is currently in.
+
+The basic `ls` command, when run, displays the contents within the current working directory.
+
+If the `-a` flag is passed in with `ls`, all items in the current working directory prepended with a `.` are also displayed, along with the rest of the items.
+
+Passing in the `-l` flag prints information for each item in the directory in a series of columns on a single line. The first column displays the read, write, and executable permissions for the main user, the group the current user is in, and any user in that order. The next column shows the owner of the item and the next column shows the group owner. The fourth column displays the size, in bytes, of the item. The fifth column displays the moment the item was created, and the last column displays the name of the item.
+
+If the `-R` flag is passed in, the command will display the contents of the current directory, and then recursively enter every directory within the current directory and display the contents of that directory, then keep going into every directory until there are no more directories in the current directory it is in.
+
+All these options are combinable for different uses. For example, the user could use the `-l` and `-a` flags to display the information for the items prepended with a `.` , or use `-R` and `-l` together.
+
+
 
 ####The `cd` and `mv` commands
 [![Alt text for your video](http://img.youtube.com/vi/xzN-sY5oyFk/0.jpg)](https://www.youtube.com/watch?v=xzN-sY5oyFk)
-
-
+ 
 
 ####Replacing
 [![Alt text for your video](http://img.youtube.com/vi/qLM7ej9Ures/0.jpg)](https://www.youtube.com/watch?v=qLM7ej9Ures)
@@ -127,6 +141,9 @@ Similar to using d to get rid of code, I learned a few ways to replace what was 
 
 Helpful Hints
 ---
+There are many commands that are quite useful but untaught. For example, the `%` command. It took me quite a while to completely understand the `%` command but it became really useful as I mastered it.  It is supposed to match the current parenthesis, or a character similar to parentheses, to the one that closes it but there were times when it just did not work.  When it works, it is very helpful for it helps users to see if something is outside of a loop or if a loop ends where it should, but I noticed that it sometimes would be buggy if there was some parenthesis in comments.  The `%` command does not differentiate between something a comment or normal code.  This led to some very confusing moments where it would seem that my code would work even if `%` told me that the parenthesis did not match up correctly.  Users should make sure to keep track of any parenthesis in comments if they decide to use the `%` command.
+
+Many of these commands are very helpful to speed up coding, but can still take quite a while if they are needed to be done multiple times.  This can be solved by simply typing the number of times a user wants the command to be done before the user types the command.  If I wanted to indent multiple lines three times, then I would do what I normally would do but type `3>` instead of just `>` by itself.  This may not seem like much, because highlighting it and using `>` three times will give the same result and may seem easier.  The reason why using a number is so useful is it would be quite time-consuming to highlight one 100 lines of code each time it is to be indented. This helps save time when doing that command a great number of times or over a large amount of code.
 
 
 
@@ -148,11 +165,8 @@ One of the first things I noticed about Vim that I initially disliked was that i
 Ever wondered how've we get our `vim` editor to work in the way we have it versus the default editor? `vim` has a file where you can setup it's defaults such as auto parentheses, auto-indent, and much more. By watching our video above, you can easily create new defaults for your vim editor that can cut time spent formating your text to spend more on coding.
 
 
+
 In Conclusion
 ---
-There are many commands that are quite useful but untaught. For example, the `%` command. It took me quite a while to completely understand the `%` command but it became really useful as I mastered it.  It is supposed to match the current parenthesis, or a character similar to parentheses, to the one that closes it but there were times when it just did not work.  When it works, it is very helpful for it helps users to see if something is outside of a loop or if a loop ends where it should, but I noticed that it sometimes would be buggy if there was some parenthesis in comments.  The `%` command does not differentiate between something a comment or normal code.  This led to some very confusing moments where it would seem that my code would work even if `%` told me that the parenthesis did not match up correctly.  Users should make sure to keep track of any parenthesis in comments if they decide to use the `%` command.
-
-Many of these commands are very helpful to speed up coding, but can still take quite a while if they are needed to be done multiple times.  This can be solved by simply typing the number of times a user wants the command to be done before the user types the command.  If I wanted to indent multiple lines three times, then I would do what I normally would do but type `3>` instead of just `>` by itself.  This may not seem like much, because highlighting it and using `>` three times will give the same result and may seem easier.  The reason why using a number is so useful is it would be quite time-consuming to highlight one 100 lines of code each time it is to be indented. This helps save time when doing that command a great number of times or over a large amount of code.
-
 Vim can seem frustrating at first and it may appear to be much more difficult to do what people are used to. Users may want to give up because they have to relearn commands that were once second nature with other editors.  It may take a while to relearn things such as `u` is now undo and `cntrl-R` is now redo, but it will be worth it in the end.  Vim has many tricks that can help speed up programming, even if new users do not learn it all right away.  The information can always be found if new users need a reminder on how to do something.  With time, the commands in Vim will start to become just as easy to use as the commands in any other editor.  If users stick to learning how to use `vim` a little at a time, then they will begin to be surprised how they ever coded without it.
 
