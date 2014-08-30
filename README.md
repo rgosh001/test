@@ -52,7 +52,9 @@ I recently learned what a `README.md` file was and boy-oh-boy, how do I even mak
 Watch the video above and let us drive through both of these documents together to help you create a `README.d` file.
 
 Here are a few links to help you get started with:
+
 [Wiki: Markdown](http://en.wikipedia.org/wiki/Markdown)
+
 [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
 
