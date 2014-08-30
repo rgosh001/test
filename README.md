@@ -45,7 +45,7 @@ For myself, I've always wondered how people contributed to online projects. With
 
 
 
-####`README.md` & `LICENSE` Files
+####`README.md`
 [![Alt text for your video](http://img.youtube.com/vi/HZaB8uVMXAg/0.jpg)](https://www.youtube.com/watch?v=HZaB8uVMXAg)
 
 I recently learned what a `README.md` file was and boy-oh-boy, how do I even make one of these. A `README.md` allows you to explain your program and all its possibilities and defects. You can talk about the contributors, files included, what the program entitles the user to do, how to install it and much more! The easiest way I was told what a `README.md` file does is "it explains to someone else who has absolutely no idea what your program does or how to code, but it enables the user to understand the concepts and basic directions to execute your program."
@@ -141,7 +141,7 @@ Similar to using d to get rid of code, I learned a few ways to replace what was 
 
 
 ####Scripts
-[![Alt text for your video](http://img.youtube.com/vi/a2JDWoYeGq8/0.jpg)](https://www.youtube.com/watch?v=a2JDWoYeGq8)
+[![Alt text for your video](http://img.youtube.com/vi/WKIbIO9ti38/0.jpg)](https://www.youtube.com/watch?v=WKIbIO9ti38)
 
 
 
