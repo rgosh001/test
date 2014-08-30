@@ -95,13 +95,13 @@ Cutting, copying, and pasting took a while to get used to when using Vim. Someti
 
 ####Appending & Pre-pending
 [![Alt text for your video](http://img.youtube.com/vi/j9MueYcWJbg/0.jpg)](https://www.youtube.com/watch?v=j9MueYcWJbg)
-
+There are many ways to maneuver inside of `vim`. Some may just use the `h,j,k,l`, `up, down, left, right arrow keys`, or the `w, e, b` keys to move. Luckily, `vim` has two special keys to get you edditing much easier. The two, which are my favorite features of `vim`, are the `shift-a` (takes you to the end of the line and into insert mode) and the `shift-i` (takes you to the beginning of the line and into insert mode) command.
 
 
 Learning The Terminal
 ---
 ####The `ls` command
-[![Alt text for your video](http://img.youtube.com/vi/RMxvcc_QUUI/0.jpg)](https://www.youtube.com/watch?v=RMxvcc_QUUI)_
+[![Alt text for your video](http://img.youtube.com/vi/-ksa4SnabAs/0.jpg)](https://www.youtube.com/watch?v=-ksa4SnabAs)
 
 The `ls` command is one of the most used commands in bash. I would say that there isn't a time that I don't use `ls` when using the terminal. Proper knowledge of the `ls` command and the useful flags for `ls` helps to streamline the programming process. 
 
