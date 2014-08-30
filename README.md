@@ -21,3 +21,5 @@ Licensing information soon to come!
 
 ####File directions
 1. `cd` into folder.
+
+**This is how you bold something**
