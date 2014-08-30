@@ -5,7 +5,7 @@ Our names are Rashid, Kyler, and Sean, Junior Computer Science Majors at the *Un
 
 Click The Images Below To Be Taken To YouTube To Watch
 
-Click [HERE](https://www.youtube.com/watch?v=Fv5Cy8i14ck&list=PLQ6W7BIxh4zvbwT7cQJh8jSxsz47MP3Z5) To Watch The Entire Playlist In Order
+Click [HERE](https://www.youtube.com/watch?v=Fv5Cy8i14ck&list=PLQ6W7BIxh4zuHBegLOCUL11uUIsHcszzQ) To Watch The Entire Playlist In Order
 
 Clock [HERE](https://github.com/svill014/test) To Read Our Paper On *Helpful Commands for vim* (excerpt inserted above related videos below)
 
