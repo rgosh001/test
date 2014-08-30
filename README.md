@@ -48,14 +48,8 @@ For myself, I've always wondered how people contributed to online projects. With
 ####`README.md` & `LICENSE` Files
 [![Alt text for your video](http://img.youtube.com/vi/HZaB8uVMXAg/0.jpg)](https://www.youtube.com/watch?v=HZaB8uVMXAg)
 
-I recently learned what a `README.md` file was and boy-oh-boy, how do I even make one of these. A `README.md` allows you to explain your program and all its possibilities and defects. You can talk about the contributors, files included, what the program entitles the user to do, how to install it and much more! The easiest way I was told what a `README.md` file does is "it explains to someone else who has absolutely no idea what your program does or how to code, but it enables the user to understand the concepts and basic directions to execute your program."
-Watch the video above and let us drive through both of these documents together to help you create a `README.d` file.
-
-Here are a few links to help you get started with:
-
-[Wiki: Markdown](http://en.wikipedia.org/wiki/Markdown)
-
-[Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+I recently learned what a `README.md` and `LICENSE` file was and boy-oh-boy, how do I even make one of these. A `README.md` allows you to explain your program and all its possibilities and defects. You can talk about the contributors, files included, what the program entitles the user to do, how to install it and much more! The easiest way I was told what a `README.md` file does is "it explains to someone else who has absolutely no idea what your program does or how to code, but it enables the user to understand the concepts and basic directions to execute your program."
+With a `LICENSE` file, you are able to use the many different `LICENSE` versions provided all over the web. All it does is explain to users the legal portion behind your program such as warranty, free distribution, and copyright (if applicaple). Watch the video above and let us drive through both of these documents together to help you create a well of `README.md` and `LICENSE` file.
 
 
 
@@ -127,6 +121,14 @@ All these options are combinable for different uses. For example, the user could
 ####The `cd` and `mv` commands
 [![Alt text for your video](http://img.youtube.com/vi/xzN-sY5oyFk/0.jpg)](https://www.youtube.com/watch?v=xzN-sY5oyFk)
  
+
+The `cd` and `mv` commands are crucial commands in order to actually use the terminal. Without cd, a person would forever be stuck in their home directory. The `mv` command is necessary for moving files from one section of the hard drive. They're really simple commands, but without them, there'd be no way to orginize contents within a hard drive. 
+
+The `cd` command by itself will change the current working directory to the home directory. If passed a directory name that is within the current working directory, the current working directory will be changed to the name of the passed in directory. `cd` will also take a path as an argument. When a path is passed in, the current working directory will be changed to the directory specified by the path. When `cd` is passed with `..`, the directory will go backwards, the directory that the current directory is in.
+
+The `mv` command will move an item within a certain directory to the directory passed in. The structure of this command is `$ mv filename/directory_name destination` . If the destination argument is not a path, the command will look for the destination in the current working directory. The destination argument can be a path, so a user can move the item to any directory in the hard drive.
+
+
 
 ####Replacing
 [![Alt text for your video](http://img.youtube.com/vi/qLM7ej9Ures/0.jpg)](https://www.youtube.com/watch?v=qLM7ej9Ures)
