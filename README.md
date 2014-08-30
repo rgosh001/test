@@ -49,7 +49,12 @@ For myself, I've always wondered how people contributed to online projects. With
 [![Alt text for your video](http://img.youtube.com/vi/sg6KBi-TP7M/0.jpg)](https://www.youtube.com/watch?v=sg6KBi-TP7M)
 
 I recently learned what a `README.md` file was and boy-oh-boy, how do I even make one of these. A `README.md` allows you to explain your program and all its possibilities and defects. You can talk about the contributors, files included, what the program entitles the user to do, how to install it and much more! The easiest way I was told what a `README.md` file does is "it explains to someone else who has absolutely no idea what your program does or how to code, but it enables the user to understand the concepts and basic directions to execute your program."
-Watch the video above and let us drive through both of these documents together to help you create a well of `README.md` and `LICENSE` file.
+Watch the video above and let us drive through both of these documents together to help you create a `README.d` file.
+
+Here are a few links to help you get started with:
+[Wiki: Markdown](http://en.wikipedia.org/wiki/Markdown)
+[Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+
 
 
 
