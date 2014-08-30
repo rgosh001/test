@@ -23,3 +23,8 @@ Licensing information soon to come!
 1. `cd` into folder.
 
 **This is how you bold something**
+
+*This is how you italicize something*
+
+**This is how you bold something**
+*This is how you bold something*
