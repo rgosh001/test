@@ -150,6 +150,7 @@ When using system calls, it is absolutely neccessary to implement `perror` with 
 
 ####Scripts
 [![Alt text for your video](http://img.youtube.com/vi/WKIbIO9ti38/0.jpg)](https://www.youtube.com/watch?v=WKIbIO9ti38)
+Have you ever wondered how you could possibly record data output from a program, or how you could record a list of commands within your terminal to share it with your colleague or professors in the future? With the `script` command, all of this is possible. By just typing `script file_name_here`, you can start a script. Also, you don't need to worry about making a file beforehand, because when you specify the filename, it will make once for you in that name. Once you've gotten your script started, anything and everything you do within that terminal window, will be recorded as text within the document. Then when you're done, type `exit` and your terminal will say your script session has ended and re-state the filename in which it recorded all your commands in. You can then share or upload your script to show the any bugs or amazing new programs you've gotten to make.
 
 
 
